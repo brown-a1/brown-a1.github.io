@@ -1,0 +1,38 @@
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+/* --- Font and typeface picked by Google search "cools CSS typeface settings for a coffee article" ---*/
+/* --- Global Typography Variables --- */
+:root {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Yanone Kaffeesatz', sans-serif;
+}
+/* --- Body Text (Fluid Scaling for Readability) --- */
+body {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.2vw, 1.125rem);
+  line-height: 1.6;
+  color: #2c241b; /* Rich espresso brown, instead of pure black */
+  background-color: #fdfaf6; /* Warm cream background */
+}
+
+
+
